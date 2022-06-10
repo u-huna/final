@@ -1,0 +1,124 @@
+@font-face {
+    font-family: '을지로';
+    src: url(../font/BMEULJIRO\ \(1\).otf);
+}
+
+@font-face {
+    font-family: '보통';
+    src: url(../font/BMYEONSUNG_ttf.ttf);
+}
+
+@font-face {
+    font-family: '주아체';
+    src: url(../font/BMJUA_ttf.ttf);
+}
+
+/* main banner */
+
+#main_img {
+    margin: 50px 0 0 120px;
+    float: left;
+}
+
+#main_text {
+    margin: 30px 0 0 140px;
+    float: left;
+}
+
+
+#main_text h2 {
+    font-family: '을지로';
+    font-size: 45px;
+    color: black;
+    margin-top: 30px;
+}
+
+.color {
+    color: #ce061d;
+}
+
+#main_text p {
+    font-family: '보통';
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+/* icon */
+
+#icon {
+    background-color: #dbb17f;
+    margin-top: 40px;
+    height: 350px;
+}
+
+#icon_wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#icon_wrap h2 {
+    text-align: center;
+    font-family: '보통';
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+#icon_wrap p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: '주아체';
+    color: white;
+    font-size: 17px;
+}
+
+#icon ul {
+    margin-top: 20px;
+}
+
+#icon li img {
+    width: 200px;
+}
+
+#icon li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#icon .icon_banner1 {
+    background-image: url(../img/icon_background.png);
+    background-repeat: no-repeat;
+    animation: motion 0.3s linear 0s infinite alternate; margin-top: 0;
+}
+
+#icon .icon_banner2 {
+    background-image: url(../img/icon_background.png);
+    background-repeat: no-repeat;
+}
+
+#icon .icon_banner3 {
+    background-image: url(../img/icon_background.png);
+    background-repeat: no-repeat;
+}
+
+#icon .icon_banner4 {
+    background-image: url(../img/icon_background.png);
+    background-repeat: no-repeat;
+}
+
+#icon .icon_banner5 {
+    background-image: url(../img/icon_background.png);
+    background-repeat: no-repeat;
+}
+
+/* icon hover */
+
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+
+
+/* 태블릿 , 모바일 대응 사이즈 */
+
+
