@@ -1,0 +1,111 @@
+@font-face {
+    font-family: '을지로';
+    src: url(../font/BMEULJIRO\ \(1\).otf);
+}
+
+@font-face {
+    font-family: '보통';
+    src: url(../font/BMYEONSUNG_ttf.ttf);
+}
+
+@font-face {
+    font-family: '주아체';
+    src: url(../font/BMJUA_ttf.ttf);
+}
+
+
+.list {
+    width: 250px;
+    height: 340px;
+    margin-top: 60px;
+    position: fixed;
+    background-color: white;
+    font-family: '주아체';
+    font-size: 20px;
+}
+
+
+.list h2{
+    font-family: '보통';
+    padding: 20px 10px 15px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f1c929;
+}
+
+.list ul {
+    float: left
+}
+
+.list ul li a {
+    color: black;
+}
+
+.list ul li a:hover {
+    font-weight: bold;
+}
+
+.tabNav li a.active:before { color: #f1c929; } 
+.tabNav li a.active { color: #f1c929; font-weight: bold; } 
+
+.list li {
+    border-bottom: solid 1px #f1c929;
+    width: 230px;
+    padding: 15px 0 15px 15px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#song_section {
+    height: 553px;
+}
+
+.song_Lp ul li {
+    display: inline-block;
+}
+
+#song_section .song_Lp {
+    float: right;
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin-top: 60px;
+}
+
+#song_section .song_Lp .Lp_right {
+    position: absolute;
+    margin: 30px 0 0 70px;
+}
+
+#song_section .song_Lp .Lp_right h2 {
+    font-family: '보통';
+    color: black;
+    font-size: 37px;
+    padding: 10px;
+}
+
+#song_section .song_Lp .Lp_right p {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: '주아체';
+}
+
+#song_section .song_Lp img {animation: rotate_image 6s linear infinite;transform-origin: 50% 50%;}
+
+
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* audio */
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 400px;
+    height: 40px;
+}
