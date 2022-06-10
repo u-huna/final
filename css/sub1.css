@@ -1,0 +1,88 @@
+@font-face {
+    font-family: '을지로';
+    src: url(../font/BMEULJIRO\ \(1\).otf);
+}
+
+@font-face {
+    font-family: '보통';
+    src: url(../font/BMYEONSUNG_ttf.ttf);
+}
+
+@font-face {
+    font-family: '주아체';
+    src: url(../font/BMJUA_ttf.ttf);
+}
+
+
+#banner img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+#game {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#game p {
+    font-family: '주아체';
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#game h2 {
+    font-family: '보통';
+    font-size: 35px;
+    color: black;
+}
+
+#game li {
+    display: inline-block;
+    padding: 50px
+};
+
+/* 이미지 호버 */
+
+.gallery{
+    border: 3px solid black;
+    overflow: hidden;
+  }
+  
+.gallery a{
+    display: block; /* 영역적용위해 사용 */
+    width: 100%; height: 100%;
+    overflow: hidden;
+    position: relative; /* absolute의 기본기준은 body로 처리 - 현재 요소로 기준변경 */
+}
+  
+.gallery figure{
+    width: 100%; height: 100%;
+}
+
+.gallery figcaption h3 {
+    font-size: 33px;
+    font-family: '보통';
+    padding: 30px;
+    margin-top: 45px;
+}
+
+.gallery figcaption{
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.7);
+  
+    position: absolute; /* 이미지와 겹치게 처리 */
+    top: 0; left: 0;
+  
+    color: #fff; text-align: center;
+  
+    opacity: 0; /* 처음엔 안보이고 */
+  
+    transition: 0.3s;
+    font-size: 13px;
+}
+  
+.gallery a:hover figcaption, .gallery a:focus figcaption{
+    /* 마우스를 올리면 보이게 처리 */
+    opacity: 1;
+}
