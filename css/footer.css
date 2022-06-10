@@ -1,0 +1,16 @@
+footer {
+    height: 100px;
+    background-color: #622c00;
+}
+
+footer #footer_logo {
+    float: left;
+    margin: 25px 0 0 480px;
+    width: 180px;
+}
+
+footer #address {
+    float: left;
+    margin: 25px 0 0 50px;
+    color: white;
+}
