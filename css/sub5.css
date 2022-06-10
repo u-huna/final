@@ -1,0 +1,125 @@
+@font-face {
+    font-family: '을지로';
+    src: url(../font/BMEULJIRO\ \(1\).otf);
+}
+
+@font-face {
+    font-family: '보통';
+    src: url(../font/BMYEONSUNG_ttf.ttf);
+}
+
+@font-face {
+    font-family: '주아체';
+    src: url(../font/BMJUA_ttf.ttf);
+}
+
+@font-face {
+    font-family: '둥근모';
+    src: url(../font/DungGeunMo.ttf);
+}
+
+/* 삐삐 제목 */
+
+#bebe_name h3 {
+    font-family: '을지로';
+    font-size: 35px;
+    color: black;
+}
+
+#bebe_name p {
+    font-family: '주아체';
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#bebe_name {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+/* 삐삐 이미지 */
+
+#bebe {
+    margin: 170px 0 70px 80px;
+}
+
+#bebe .bebe_img {
+    background: url(../img/삐삐.png);
+    background-repeat: no-repeat;
+    height: 680px;
+}
+
+#bebe .bebe_img img {
+    position: absolute;
+    margin: 328px 0 0 590px;
+    transition: all 0.2s linear;
+}
+
+#bebe .bebe_img img:hover {
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+
+form {
+    position: absolute;
+    margin: 85px 0 0 130px;
+}
+
+textarea {
+    font-family: '둥근모';
+    width: 640px;
+    height: 230px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 45px;
+    resize: none;
+    background-color: #b2dd67;
+    border: solid 7px black;
+}
+
+/* 드라마 인물 */
+
+#drama_people {
+    /* width: 1200px; */
+    margin: 0 0 150px 320px;
+}
+
+#drama_people li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+
+#drama_people li img {
+    transition: 0.3s;
+}
+
+#drama_people li img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#drama_people li:hover p {
+    color: #90be3f;
+    transition: 0.2s;
+}
+
+
+#drama_people li p {
+    text-align: center;
+    font-family: '둥근모';
+    margin-top: 20px;
+    font-size: 27px;
+
+}
+
+
+#drama_people li img {
+    width: 150px;
+}
