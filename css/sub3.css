@@ -1,0 +1,93 @@
+@font-face {
+    font-family: '을지로';
+    src: url(../font/BMEULJIRO\ \(1\).otf);
+}
+
+@font-face {
+    font-family: '보통';
+    src: url(../font/BMYEONSUNG_ttf.ttf);
+}
+
+@font-face {
+    font-family: '주아체';
+    src: url(../font/BMJUA_ttf.ttf);
+}
+
+/* .tabNav */
+
+#item { margin-left: 20px;}
+#item img { text-align: center;}
+#subject { font-weight: bold; margin-top: 10px; font-size: 17px; text-align: left; font-family: '주아체'; } 
+#comment { font-size: 11px; text-align: left; } 
+#price_line {border: 0.5px solid #eeee; margin-top: 10px; width: 250px;}
+#price { margin-top: 10px; font-weight: bold; font-size: 12px; text-align: left; } 
+
+/* item hover */
+
+#item:hover #price_line {
+    border: 1px solid #f1c929;
+    transition: 0.7s;
+    width: 249px;
+}
+
+#item img {
+    max-width: 100%;
+    transition: all 0.2s linear;
+}
+
+#item .a {
+    width: 250px;
+    overflow: hidden;
+}
+
+.a:hover img {
+    transform: scale(1.1);
+}
+
+/* table */
+
+#table_name h3 {
+    font-family: '을지로';
+    font-size: 35px;
+    color: black;
+}
+
+#table_name p {
+    font-family: '주아체';
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+#table_name {
+    text-align: center;
+    margin-bottom: 45px;
+    margin-top: 50px;
+}
+
+table { margin: 0 auto; background-color: white; width: 1200px; margin-bottom: 100px; } 
+
+td { padding: 20px 0 20px 0; } 
+
+.tab_content ul { padding: 0 10px; margin: 0; } 
+
+/* tab_content */
+
+.tab_content img { width: 250px; } 
+
+/* active */
+
+#item .list-item {
+    width: 18px;
+    float: left;
+    margin-right: 10px;
+}
+
+#item .list-item:hover {
+    content: url(../img/heart_color.png);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#item .list-item:active {
+    content: url(../img/heart_color.png);
+}
