@@ -1,0 +1,48 @@
+@font-face {
+    font-family: '을지로';
+    src: url(../font/BMEULJIRO\ \(1\).otf);
+}
+
+header {
+    height: 100px;
+    width: 1200px;
+    position: relative;
+}
+
+header .hcolor {
+    color: #f1c929;
+}
+
+header #logo {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+header #main_menu {
+    width: 870px;
+    height: 45px;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    background-color: #70101c;
+    border-radius: 20px;
+}
+
+header #main_menu li {
+    display: inline-block;
+    margin: 14px 30px 0 50px;
+    font-size: 13px;
+    font-family: '을지로';
+}
+
+header #main_menu li a:hover {
+    color: #f1c929;
+    transition: all 0.7s;
+}
+
+header #main_menu li a {
+    color: white;
+    font-size: 18px;
+    transition: all 0.7s;
+}
